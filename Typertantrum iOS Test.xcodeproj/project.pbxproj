@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA12E7ED1D91F46A00962D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12E7EC1D91F46A00962D9D /* AppDelegate.swift */; };
+		AA12E7EF1D91F46A00962D9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12E7EE1D91F46A00962D9D /* ViewController.swift */; };
+		AA12E7F21D91F46A00962D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12E7F01D91F46A00962D9D /* Main.storyboard */; };
+		AA12E7F51D91F46A00962D9D /* Typertantrum_iOS_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA12E7F31D91F46A00962D9D /* Typertantrum_iOS_Test.xcdatamodeld */; };
+		AA12E7F71D91F46A00962D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA12E7F61D91F46A00962D9D /* Assets.xcassets */; };
+		AA12E7FA1D91F46A00962D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12E7F81D91F46A00962D9D /* LaunchScreen.storyboard */; };
+		AA12E8051D91F46A00962D9D /* Typertantrum_iOS_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12E8041D91F46A00962D9D /* Typertantrum_iOS_TestTests.swift */; };
+		AA12E8101D91F46A00962D9D /* Typertantrum_iOS_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12E80F1D91F46A00962D9D /* Typertantrum_iOS_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA12E8011D91F46A00962D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA12E7E11D91F46A00962D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA12E7E81D91F46A00962D9D;
+			remoteInfo = "Typertantrum iOS Test";
+		};
+		AA12E80C1D91F46A00962D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA12E7E11D91F46A00962D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA12E7E81D91F46A00962D9D;
+			remoteInfo = "Typertantrum iOS Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA12E7E91D91F46A00962D9D /* Typertantrum iOS Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Typertantrum iOS Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA12E7EC1D91F46A00962D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA12E7EE1D91F46A00962D9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA12E7F11D91F46A00962D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA12E7F41D91F46A00962D9D /* Typertantrum_iOS_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Typertantrum_iOS_Test.xcdatamodel; sourceTree = "<group>"; };
+		AA12E7F61D91F46A00962D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA12E7F91D91F46A00962D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA12E7FB1D91F46A00962D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA12E8001D91F46A00962D9D /* Typertantrum iOS TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Typertantrum iOS TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA12E8041D91F46A00962D9D /* Typertantrum_iOS_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typertantrum_iOS_TestTests.swift; sourceTree = "<group>"; };
+		AA12E8061D91F46A00962D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA12E80B1D91F46A00962D9D /* Typertantrum iOS TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Typertantrum iOS TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA12E80F1D91F46A00962D9D /* Typertantrum_iOS_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typertantrum_iOS_TestUITests.swift; sourceTree = "<group>"; };
+		AA12E8111D91F46A00962D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA12E7E61D91F46A00962D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E7FD1D91F46A00962D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E8081D91F46A00962D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA12E7E01D91F46A00962D9D = {
+			isa = PBXGroup;
+			children = (
+				AA12E7EB1D91F46A00962D9D /* Typertantrum iOS Test */,
+				AA12E8031D91F46A00962D9D /* Typertantrum iOS TestTests */,
+				AA12E80E1D91F46A00962D9D /* Typertantrum iOS TestUITests */,
+				AA12E7EA1D91F46A00962D9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA12E7EA1D91F46A00962D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA12E7E91D91F46A00962D9D /* Typertantrum iOS Test.app */,
+				AA12E8001D91F46A00962D9D /* Typertantrum iOS TestTests.xctest */,
+				AA12E80B1D91F46A00962D9D /* Typertantrum iOS TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA12E7EB1D91F46A00962D9D /* Typertantrum iOS Test */ = {
+			isa = PBXGroup;
+			children = (
+				AA12E7EC1D91F46A00962D9D /* AppDelegate.swift */,
+				AA12E7EE1D91F46A00962D9D /* ViewController.swift */,
+				AA12E7F01D91F46A00962D9D /* Main.storyboard */,
+				AA12E7F61D91F46A00962D9D /* Assets.xcassets */,
+				AA12E7F81D91F46A00962D9D /* LaunchScreen.storyboard */,
+				AA12E7FB1D91F46A00962D9D /* Info.plist */,
+				AA12E7F31D91F46A00962D9D /* Typertantrum_iOS_Test.xcdatamodeld */,
+			);
+			path = "Typertantrum iOS Test";
+			sourceTree = "<group>";
+		};
+		AA12E8031D91F46A00962D9D /* Typertantrum iOS TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA12E8041D91F46A00962D9D /* Typertantrum_iOS_TestTests.swift */,
+				AA12E8061D91F46A00962D9D /* Info.plist */,
+			);
+			path = "Typertantrum iOS TestTests";
+			sourceTree = "<group>";
+		};
+		AA12E80E1D91F46A00962D9D /* Typertantrum iOS TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA12E80F1D91F46A00962D9D /* Typertantrum_iOS_TestUITests.swift */,
+				AA12E8111D91F46A00962D9D /* Info.plist */,
+			);
+			path = "Typertantrum iOS TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA12E7E81D91F46A00962D9D /* Typertantrum iOS Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA12E8141D91F46A00962D9D /* Build configuration list for PBXNativeTarget "Typertantrum iOS Test" */;
+			buildPhases = (
+				AA12E7E51D91F46A00962D9D /* Sources */,
+				AA12E7E61D91F46A00962D9D /* Frameworks */,
+				AA12E7E71D91F46A00962D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Typertantrum iOS Test";
+			productName = "Typertantrum iOS Test";
+			productReference = AA12E7E91D91F46A00962D9D /* Typertantrum iOS Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA12E7FF1D91F46A00962D9D /* Typertantrum iOS TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA12E8171D91F46A00962D9D /* Build configuration list for PBXNativeTarget "Typertantrum iOS TestTests" */;
+			buildPhases = (
+				AA12E7FC1D91F46A00962D9D /* Sources */,
+				AA12E7FD1D91F46A00962D9D /* Frameworks */,
+				AA12E7FE1D91F46A00962D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA12E8021D91F46A00962D9D /* PBXTargetDependency */,
+			);
+			name = "Typertantrum iOS TestTests";
+			productName = "Typertantrum iOS TestTests";
+			productReference = AA12E8001D91F46A00962D9D /* Typertantrum iOS TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA12E80A1D91F46A00962D9D /* Typertantrum iOS TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA12E81A1D91F46A00962D9D /* Build configuration list for PBXNativeTarget "Typertantrum iOS TestUITests" */;
+			buildPhases = (
+				AA12E8071D91F46A00962D9D /* Sources */,
+				AA12E8081D91F46A00962D9D /* Frameworks */,
+				AA12E8091D91F46A00962D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA12E80D1D91F46A00962D9D /* PBXTargetDependency */,
+			);
+			name = "Typertantrum iOS TestUITests";
+			productName = "Typertantrum iOS TestUITests";
+			productReference = AA12E80B1D91F46A00962D9D /* Typertantrum iOS TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA12E7E11D91F46A00962D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Christian D. Smith";
+				TargetAttributes = {
+					AA12E7E81D91F46A00962D9D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					AA12E7FF1D91F46A00962D9D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA12E7E81D91F46A00962D9D;
+					};
+					AA12E80A1D91F46A00962D9D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA12E7E81D91F46A00962D9D;
+					};
+				};
+			};
+			buildConfigurationList = AA12E7E41D91F46A00962D9D /* Build configuration list for PBXProject "Typertantrum iOS Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA12E7E01D91F46A00962D9D;
+			productRefGroup = AA12E7EA1D91F46A00962D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA12E7E81D91F46A00962D9D /* Typertantrum iOS Test */,
+				AA12E7FF1D91F46A00962D9D /* Typertantrum iOS TestTests */,
+				AA12E80A1D91F46A00962D9D /* Typertantrum iOS TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA12E7E71D91F46A00962D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA12E7FA1D91F46A00962D9D /* LaunchScreen.storyboard in Resources */,
+				AA12E7F71D91F46A00962D9D /* Assets.xcassets in Resources */,
+				AA12E7F21D91F46A00962D9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E7FE1D91F46A00962D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E8091D91F46A00962D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA12E7E51D91F46A00962D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA12E7EF1D91F46A00962D9D /* ViewController.swift in Sources */,
+				AA12E7ED1D91F46A00962D9D /* AppDelegate.swift in Sources */,
+				AA12E7F51D91F46A00962D9D /* Typertantrum_iOS_Test.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E7FC1D91F46A00962D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA12E8051D91F46A00962D9D /* Typertantrum_iOS_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA12E8071D91F46A00962D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA12E8101D91F46A00962D9D /* Typertantrum_iOS_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA12E8021D91F46A00962D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA12E7E81D91F46A00962D9D /* Typertantrum iOS Test */;
+			targetProxy = AA12E8011D91F46A00962D9D /* PBXContainerItemProxy */;
+		};
+		AA12E80D1D91F46A00962D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA12E7E81D91F46A00962D9D /* Typertantrum iOS Test */;
+			targetProxy = AA12E80C1D91F46A00962D9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA12E7F01D91F46A00962D9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA12E7F11D91F46A00962D9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA12E7F81D91F46A00962D9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA12E7F91D91F46A00962D9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA12E8121D91F46A00962D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA12E8131D91F46A00962D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA12E8151D91F46A00962D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Typertantrum iOS Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typertantrum.testing.Typertantrum-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA12E8161D91F46A00962D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Typertantrum iOS Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typertantrum.testing.Typertantrum-iOS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AA12E8181D91F46A00962D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Typertantrum iOS TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typertantrum.testing.Typertantrum-iOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typertantrum iOS Test.app/Typertantrum iOS Test";
+			};
+			name = Debug;
+		};
+		AA12E8191D91F46A00962D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Typertantrum iOS TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typertantrum.testing.Typertantrum-iOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typertantrum iOS Test.app/Typertantrum iOS Test";
+			};
+			name = Release;
+		};
+		AA12E81B1D91F46A00962D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Typertantrum iOS TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typertantrum.testing.Typertantrum-iOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Typertantrum iOS Test";
+			};
+			name = Debug;
+		};
+		AA12E81C1D91F46A00962D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Typertantrum iOS TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typertantrum.testing.Typertantrum-iOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Typertantrum iOS Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA12E7E41D91F46A00962D9D /* Build configuration list for PBXProject "Typertantrum iOS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12E8121D91F46A00962D9D /* Debug */,
+				AA12E8131D91F46A00962D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA12E8141D91F46A00962D9D /* Build configuration list for PBXNativeTarget "Typertantrum iOS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12E8151D91F46A00962D9D /* Debug */,
+				AA12E8161D91F46A00962D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA12E8171D91F46A00962D9D /* Build configuration list for PBXNativeTarget "Typertantrum iOS TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12E8181D91F46A00962D9D /* Debug */,
+				AA12E8191D91F46A00962D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA12E81A1D91F46A00962D9D /* Build configuration list for PBXNativeTarget "Typertantrum iOS TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12E81B1D91F46A00962D9D /* Debug */,
+				AA12E81C1D91F46A00962D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA12E7F31D91F46A00962D9D /* Typertantrum_iOS_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA12E7F41D91F46A00962D9D /* Typertantrum_iOS_Test.xcdatamodel */,
+			);
+			currentVersion = AA12E7F41D91F46A00962D9D /* Typertantrum_iOS_Test.xcdatamodel */;
+			path = Typertantrum_iOS_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA12E7E11D91F46A00962D9D /* Project object */;
+}
